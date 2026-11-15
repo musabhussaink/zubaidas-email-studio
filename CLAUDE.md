@@ -18,5 +18,9 @@ Follow the brand voice guide in every email and every piece of copy:
 ## Rules
 
 1. **Write in plain English.** Use short sentences and everyday words, and avoid jargon. This applies to the emails and to anything you write to me.
-2. **Never send email to real people.** Only draft emails. Don't send anything, schedule anything, or connect to a sending service in a way that could reach a real inbox.
+2. **Never send email to real people.** Only draft emails. Don't schedule anything, and don't send to customers, leads or anyone else. The one exception is test sends through Resend, which may go only to:
+   - Resend's test addresses, which end in `@resend.dev` (for example `delivered@resend.dev`), and
+   - my own email address.
+
+   Never send through Resend to any other address. A guard will enforce this in the next step, but follow this rule even before it's in place.
 3. **Ask me before deleting anything.** That includes files, folders, drafts and lead lists.
