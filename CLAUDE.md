@@ -9,6 +9,12 @@ This studio is for planning and writing email campaigns for a small business. We
 - `campaigns/`: one folder per campaign, holding its plan and its email drafts.
 - `notes/`: research, decisions and anything else worth remembering.
 
+## Brand voice
+
+Follow the brand voice guide in every email and every piece of copy:
+
+@brand/voice.md
+
 ## Rules
 
 1. **Write in plain English.** Use short sentences and everyday words, and avoid jargon. This applies to the emails and to anything you write to me.
