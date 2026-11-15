@@ -3,11 +3,11 @@ Preview: You asked us to let you know. Here's how your monthly tea box works.
 
 Hi {{first_name}},
 
-You joined our waitlist for The Steep Club, so you're among the first to hear: it's open today. 🍵
+You joined our waitlist for The Steep Club, so we wanted you to know: it's open today. 🍵
 
 **What it is**
 
-A month of good tea, chosen for you and delivered to your door.
+A new box of good tea each month, chosen by us and sent to you.
 
 **How it works**
 
@@ -19,11 +19,11 @@ A month of good tea, chosen for you and delivered to your door.
 
 [PLACEHOLDER: the launch offer and its real end date, or remove this line]
 
-You don't need to know anything about tea to enjoy it. Open the box, pick a tea and put the kettle on.
+You don't need to know anything about tea to enjoy it. [CONFIRM: no teapot or infuser needed for the teas in the first box. If true: "Open the box, pick a tea and put the kettle on." Otherwise remove this sentence.]
 
 [Join The Steep Club](https://kettlebird.example/steep-club)
 
-Over the next two weeks, we'll send you a few short emails with more detail: who the box is for, what's in the first one, and honest answers to common questions. If you join, these emails stop and we'll send you a welcome note instead.
+Over the next few weeks, we'll send you some short emails with more detail: who the box is for, what's in the first one, and honest answers to common questions. If you join, these emails stop and we'll send you a welcome note instead.
 
 Warm wishes,
 The Kettlebird Tea Team

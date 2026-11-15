@@ -1,9 +1,9 @@
 Subject: Is The Steep Club right for you?
-Preview: New to tea, buying a gift or a daily tea drinker? Here's what it means for you.
+Preview: New to tea, buying a gift or drinking tea daily? Here's what it means for you.
 
 Hi {{first_name}},
 
-People join our waitlist for different reasons. Here's how The Steep Club works for each of them. Find the one that sounds most like you.
+People joined our waitlist for different reasons. Here's how The Steep Club works for each of them. Find the one that sounds most like you.
 
 **New to tea?**
 
@@ -11,15 +11,15 @@ You don't need to know anything about tea to start. [CONFIRM: every tea comes wi
 
 **Buying a gift?**
 
-The Steep Club is a gift that keeps arriving: one order, and a new box every month. [PLACEHOLDER: how gifting works, such as gift lengths, whether you can choose the start date and how the box is presented]
+The Steep Club is a gift that keeps arriving: one order, and a new box each month for as long as the gift lasts. [PLACEHOLDER: how gifting works, such as gift lengths, whether you can choose the start date and how the box is presented]
 
 [PLACEHOLDER: the last order date for delivery before the holidays, only if there's a real cutoff. Otherwise remove this line.]
 
 **Drink tea every day?**
 
-Keep your favourites, and add something new alongside them each month. Each box holds [PLACEHOLDER: number of teas and amount of each]. [PLACEHOLDER: price per cup, only if we can work it out honestly. Otherwise remove this sentence.]
+Keep drinking your favourites, and try something new alongside them each month. Each box holds [PLACEHOLDER: number of teas and amount of each]. [PLACEHOLDER: price per cup, only if we can work it out honestly. Otherwise remove this sentence.]
 
-And whichever group you're in, you won't be stuck. [PLACEHOLDER: the real skip and cancel terms, in one sentence]
+[PLACEHOLDER: the real skip and cancel terms in one sentence. Only open with "Whichever group you're in, you won't be stuck." if that's true.]
 
 [See how The Steep Club works](https://kettlebird.example/steep-club)
 

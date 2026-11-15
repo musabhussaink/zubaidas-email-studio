@@ -1,5 +1,5 @@
 Subject: A look inside the first box
-Preview: Here's exactly what arrives at your door in your first month.
+Preview: Here's what's inside our first box, laid out tea by tea.
 
 Hi {{first_name}},
 
@@ -23,9 +23,9 @@ We'd rather show you than tell you. Here's what's inside the first Steep Club bo
 
 [PLACEHOLDER: the launch offer and its real end date, or remove this line]
 
-[PLACEHOLDER: a short quote from an early member, only if it's real and we have their permission. Otherwise remove this line.]
+[PLACEHOLDER: a short quote from someone who tried a sample box, saying that's who they are, only if it's real and we have their permission. Otherwise remove this line.]
 
-Each month brings a new selection, so your next box will look different from this one.
+Each month brings a new selection, so the next box will look different from this one.
 
 [Join The Steep Club](https://kettlebird.example/steep-club)
 

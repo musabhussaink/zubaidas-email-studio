@@ -46,12 +46,15 @@ Every `[PLACEHOLDER: ...]` must be filled in or its line removed, and every `[CO
 
 1. Price per box, and any discount for paying ahead (E1, E3, E4)
 2. What's in the first box: teas, amounts, extras and a photo (E1, E2, E3)
-3. Subscription terms: skip, pause and cancel (E1, E2, E4)
-4. Whether there's a launch offer, and its real end date (E1, E3, E4)
-5. Gift options and any real holiday delivery cutoff (E1, E2, E4)
+3. Subscription terms: skip, pause and cancel, including whether "you won't be stuck" is true (E1, E2, E4)
+4. Whether there's a launch offer, and its real end date. This also decides E4's closing line (E1, E3, E4)
+5. Gift options, gift lengths and any real holiday delivery cutoff (E1, E2, E4)
 6. Delivery timing, areas and charges (E1, E4)
-7. Whether every tea comes with brewing notes, and whether the first box needs a teapot or infuser (E2, E4)
-8. Any quote from an early member, only with their permission (E3)
+7. Whether every tea comes with brewing notes, and whether the first box needs a teapot or infuser (E1, E2, E4)
+8. Any quote from someone who tried a sample box, only with their permission (E3)
+9. Whether boxes are the same for everyone or picked per person. E1 says "chosen by us" (E1)
+10. The exit rule is set up and the welcome email is written, because E1 promises that launch emails stop when someone joins (E1)
+11. The `{{first_name}}` fallback is set to `there` in the email platform (all)
 
 ## Ideas to test
 
