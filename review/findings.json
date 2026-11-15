@@ -1,39 +1,40 @@
 {
+  "folder": "campaigns/test-bad",
   "findings": [
     {
-      "file": "campaigns/steep-club-launch/groups/gift-buyers/emails/02-made-for-you.md",
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 1,
+      "severity": "high",
+      "problem": "Still not fixed. The subject shouts 'LAST CHANCE' in capitals, uses 'last chance' when there's no real deadline, and has three exclamation marks. voice.md section 3 bans all three.",
+      "fix": "Use calm wording with no capitals for emphasis and no more than one exclamation mark, for example: 'The Steep Club is now open'. Only say 'last chance' if there's a real closing date, and give that date."
+    },
+    {
+      "file": "campaigns/test-bad/emails/01-bad.md",
       "line": 6,
-      "severity": "medium",
-      "problem": "This version is meant for gift buyers, but it still covers all three groups and asks the reader to \"find the one that sounds most like you\". So gift buyers also read \"New to tea?\" and \"Drink tea every day?\" sections that aren't about them. This breaks the voice guide's \"one main message\" and \"every email needs a clear purpose\". The plan also says this version should lead with how gifting works.",
-      "fix": "Drop the other two groups' sections and the \"find the one\" line. Build the email around the gifting section (lines 14-16), plus the skip/cancel line."
+      "severity": "high",
+      "problem": "Still not fixed. 'This is your last chance' and 'before it's gone forever!' make up a deadline and scarcity. voice.md sections 3 and 4 ban 'last chance' unless it's true, and ban made-up scarcity.",
+      "fix": "Replace it with a warm, honest opening, for example: 'The Steep Club is open, and we'd love for you to join.' Only add a closing date if one really exists."
     },
     {
-      "file": "campaigns/steep-club-launch/groups/tea-curious/emails/02-made-for-you.md",
-      "line": 6,
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 2,
       "severity": "medium",
-      "problem": "Same problem as the gift-buyers version. We already know this reader is new to tea, but the email still asks them to pick their group and includes the gift and daily-drinker sections. That gives it no single clear message (voice guide, section 1).",
-      "fix": "Keep only the \"New to tea?\" section (line 10) and the skip/cancel line. Remove the gift and daily-drinker sections and the \"find the one\" line."
+      "problem": "Partly fixed. The detox health claim is gone, but the preview still ends with 'Don't miss out.' voice.md section 3 says to avoid this unless there's a real deadline.",
+      "fix": "Remove 'Don't miss out.' and end on the tea, for example: 'A light, fresh green tea for your afternoon cup.'"
     },
     {
-      "file": "campaigns/steep-club-launch/groups/daily-drinkers/emails/02-made-for-you.md",
-      "line": 6,
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 12,
       "severity": "medium",
-      "problem": "Same problem again. The daily-drinker version still includes the beginner and gift sections and asks the reader to find their group, so it has no single clear message (voice guide, section 1).",
-      "fix": "Keep only the \"Drink tea every day?\" section (line 20) and the skip/cancel line. Remove the others and the \"find the one\" line."
+      "problem": "Still not fixed. There's a second link, 'Shop all our teas' (kettlebird.example/shop). Rule 3 in .claude/rules/emails.md allows exactly one main link.",
+      "fix": "Delete line 12 and keep only the 'Join The Steep Club' link."
     },
     {
-      "file": "campaigns/steep-club-launch/groups/gift-buyers/emails/01-club-is-open.md",
-      "line": 10,
-      "severity": "medium",
-      "problem": "The email says the box is \"chosen by us and sent to you\", but a gift buyer's box goes to the person they're buying for. Line 22 even talks about \"the person you're buying for\". This is a wrong statement of how the product works for this reader, which goes against the voice guide's \"Honest\" rule.",
-      "fix": "Change it to something like \"A new box of good tea each month, chosen by us and sent to the person you're buying for.\" (or \"sent to you or someone you love\")."
-    },
-    {
-      "file": "campaigns/steep-club-launch/groups/gift-buyers/emails/03-inside-the-first-box.md",
-      "line": 30,
+      "file": "campaigns/test-bad/emails/01-bad.md",
+      "line": 14,
       "severity": "low",
-      "problem": "The button says \"Join The Steep Club\", but gift buyers are giving a subscription, not joining one themselves. The same wording is in gift-buyers 01 (line 24, plus \"If you join\" on line 26) and 04 (line 36). The call to action doesn't match what this reader is trying to do.",
-      "fix": "Use gift wording for the button text, such as \"[Give The Steep Club](https://kettlebird.example/steep-club)\", and keep the address exactly as it is. In 01, line 26, say \"If you join or buy a gift, these emails stop\"."
+      "problem": "Still not fixed. 'Happy sipping!' isn't one of the closing lines in voice.md section 5, so it breaks rule 4 in .claude/rules/emails.md. The email also still has five exclamation marks (three on line 1, one on line 6, one here), which is over the limit of 2–3.",
+      "fix": "Use an approved closing that suits tea, such as 'Warm wishes,'. Or agree on a list of Kettlebird closings and add it to the rules."
     }
   ]
 }
