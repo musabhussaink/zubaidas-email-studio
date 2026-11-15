@@ -1,0 +1,26 @@
+{
+  "extraKnownMarketplaces": {
+    "knowledge-work-plugins": {
+      "source": {
+        "source": "github",
+        "repo": "anthropics/knowledge-work-plugins"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "marketing@knowledge-work-plugins": true
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__resend__.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/send-guard.mjs\""
+          }
+        ]
+      }
+    ]
+  }
+}

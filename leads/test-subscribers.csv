@@ -1,0 +1,6 @@
+email,first_name,stage,signup_date,has_ordered,notes
+ayesha.test@example.com,Ayesha,expecting,2026-11-30,no,Synthetic profile. Tests E2/E4/E5 version A.
+bilal.test@example.com,Bilal,baby,2026-11-30,no,Synthetic profile. Tests version B.
+sana.test@example.com,Sana,toddler,2026-11-30,yes,Synthetic profile. Tests version C and skipping E5 after an order.
+gift.test@example.com,,gift,2026-11-30,no,Synthetic profile. No first name: tests the "Hi there," fallback and version D.
+nostage.test@example.com,Hira,,2026-11-30,no,Synthetic profile. No stage chosen: tests the general version E.
